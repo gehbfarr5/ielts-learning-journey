@@ -1,0 +1,19 @@
+# Defense in depth; review staged contents before every public push.
+.DS_Store
+.env
+.env.*
+private/
+raw/
+exports/
+*.apkg
+*.colpkg
+*.anki2
+*.db
+*.sqlite*
+*.log
+*.mp3
+*.m4a
+*.wav
+*.pdf
+*.png
+*.jpg
